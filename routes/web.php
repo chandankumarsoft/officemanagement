@@ -17,6 +17,26 @@ Route::get('/', function () {
     return view('frontend.home');
 })->name('home');
 
+Route::get('/about', function () {
+    return view('frontend.about');
+})->name('about');
+
+Route::get('/services', function () {
+    return view('frontend.services');
+})->name('services');
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+})->name('contact');
+
+Route::get('/privacy', function () {
+    return view('frontend.privacy');
+})->name('privacy');
+
+Route::get('/terms', function () {
+    return view('frontend.terms');
+})->name('terms');
+
 /*
 |--------------------------------------------------------------------------
 | Authentication Routes
